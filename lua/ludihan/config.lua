@@ -1,6 +1,8 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+vim.opt.mouse = ""
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -26,6 +28,10 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
     pattern = { "*" },
     command = ":%s/\\s\\+$//e",
 })
+
+if vim.g.neovide then
+    vim.o.guifont = "Hack Nerd Font:h8"
+end
 
 local colorscheme = "kanagawa-dragon"
 local ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
