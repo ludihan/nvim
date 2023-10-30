@@ -123,6 +123,8 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 --clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set({"n", "v"}, "<leader>p", [["+p]])
+vim.keymap.set({"n", "v"}, "<leader>Y", [["+Y]])
+vim.keymap.set({"n", "v"}, "<leader>P", [["+P]])
 
 --delete without yank
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
