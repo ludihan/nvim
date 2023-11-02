@@ -14,8 +14,8 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 
-vim.opt.scrolloff = 15
-vim.opt.sidescrolloff = 15
+vim.opt.scrolloff = 10
+vim.opt.sidescrolloff = 10
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
