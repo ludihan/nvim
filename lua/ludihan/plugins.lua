@@ -25,9 +25,12 @@ require("lazy").setup({
     { 'williamboman/mason-lspconfig.nvim' },
 
     -- Themes
-    {"xiyaowong/transparent.nvim"},
     { "ellisonleao/gruvbox.nvim",         priority = 1000 },
-    { "rebelot/kanagawa.nvim" },
+    { "rebelot/kanagawa.nvim",
+        opts = {
+            transparent = true,
+        }
+    },
 
     --Telescope
     {
