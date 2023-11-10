@@ -42,9 +42,6 @@ require("lazy").setup({
     -- Treesitter
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 
-    -- Terminal
-    { 'akinsho/toggleterm.nvim', version = "*", config = true },
-
     -- Auto tag HTML
     { "windwp/nvim-ts-autotag" },
 
@@ -56,7 +53,4 @@ require("lazy").setup({
         event = "InsertEnter",
         opts = {}
     },
-
-    -- useless really
-    { "andweeb/presence.nvim" }
 })

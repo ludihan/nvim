@@ -92,11 +92,6 @@ require("nvim-tree").setup({
 -- html
 require('nvim-ts-autotag').setup()
 
---toggleterm
-require('toggleterm').setup({
-    open_mapping = [[<a-i>]],
-})
-
 -- remaps
 vim.g.mapleader = " "
 local api = require("nvim-tree.api")
